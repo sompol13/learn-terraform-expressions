@@ -22,5 +22,7 @@ Open `main.tf` in your editor and update your aws_instance count parameter with 
 ### Create a splat expression
 Edit the `outputs.tf` file to add the new private_addresses output. This output will return the private DNS of all instances created by the `aws_instance.ubuntu` resource.
 
+<img width="671" alt="Screen Shot 2565-01-28 at 23 30 48" src="https://user-images.githubusercontent.com/33342822/151584947-43270c7f-c2ad-4583-bda2-6168921bb74e.png">
+
 ### Reference
 https://learn.hashicorp.com/tutorials/terraform/expressions
